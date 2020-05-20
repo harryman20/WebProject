@@ -3,17 +3,32 @@
 }
 
 h1 {
-  color: SeaGreen;
-}
-
-p, li {
-  font-size: 18px;
-  color: purple;
+  color: khaki;
   font-weight: bold;
-  font-style: italic;
+  font-size: 100px;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
 }
 
-p {
-  text-decoration: overline;
-  text-decoration-color: yellow;
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+h2#one {
+  background-color: mediumspringgreen;
+}
+
+h2#two {
+  background-color: lightcoral;
+}
+
+h2#three {
+  background-color: skyblue;
+}
+
+#special {
+  font-weight: bold;
+  color: blue;
 }
